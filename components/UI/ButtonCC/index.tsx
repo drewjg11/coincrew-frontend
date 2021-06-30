@@ -1,12 +1,12 @@
 import * as React from "react";
 import { Button } from "antd";
 
-type ButtonProps = {
+type Props = {
     text: string;
 };
 
-function ButtonComponent ({ text }: ButtonProps) {
+function ButtonCC ({ text }: Props) {
     return <Button>text</Button>
 }
 
-export default ButtonComponent;
+export default ButtonCC;
